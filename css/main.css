@@ -1,0 +1,368 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  scroll-behavior: smooth;
+}
+nav{
+  width: 100%;
+  position: fixed !important;
+  z-index: 900;
+}
+.navbar {
+    background: linear-gradient(to left, #222, #ddd, #222);
+}
+
+.navbar a {
+    color: white;
+
+
+}
+
+.navbar ul li .nav-link {
+    padding: 10px 20px !important;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(199, 198, 198);
+    color: black;
+    border-radius: 20px;
+
+
+}
+.about{
+    padding: 100px 0px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(../images/bg.jpeg);
+    color: white;
+}
+.about .top {
+    margin: auto;
+    width: 30%;
+    border-bottom: 3px solid white ;
+}
+.about h1{
+  margin-bottom: 10px;
+  font-weight: bold;
+    text-align: center;
+    border-left: 2px solid white ;
+    border-right: 2px solid white;
+    border-radius: 20px;
+}
+.about .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+}
+.about .bottom .pic{
+  width: 50%;
+padding-left: 100px;
+}
+.about .bottom .pic img{
+    width: 90%;
+}
+.about .bottom .text{
+    width: 50%;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 150px;
+}
+.about .bottom .text p{
+    background-color: rgba(0, 0, 0, .5);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: large;
+    width: 100%;
+    text-align: center;
+    text-shadow: 5px 5px 5px silver;
+}
+
+.product{
+    padding: 100px 0px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(../images/bg2.jpeg);
+    color: white;
+}
+.product .top {
+    margin: auto;
+    width: 30%;
+    border-bottom: 3px solid white ;
+}
+.product h1{
+  margin-bottom: 10px;
+  font-weight: bold;
+    text-align: center;
+    border-left: 2px solid white ;
+    border-right: 2px solid white;
+    border-radius: 20px;
+}
+.product .bottom{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 70px ;
+}
+.product .bottom .card{
+    background-color: #444;
+    color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 30% !important;
+    height: 10%;
+  
+}
+
+
+
+.profile{
+    padding: 100px 0px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(../images/bg3.webp);
+    color: white;
+}
+.profile .top {
+    margin: auto;
+    width: 30%;
+    border-bottom: 3px solid white ;
+}
+.profile h1{
+  margin-bottom: 10px;
+  font-weight: bold;
+    text-align: center;
+    border-left: 2px solid white ;
+    border-right: 2px solid white;
+    border-radius: 20px;
+}
+.profile .bottom {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 50px;
+
+}
+
+.profile .bottom .right{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px;
+
+}
+.profile .bottom .right .allcards{
+  width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+.profile .bottom .right .card {
+    background: transparent;
+    text-align: center;
+    border: none !important;
+
+}
+.profile .bottom .right .card h5{
+    font-weight: 900;
+    font-size: 35px;
+
+}
+.profile .bottom .right .text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+
+}
+
+.profile  i {
+    font-size: 30px;
+    transition: all .5s;
+
+   
+}
+.profile .card:hover i{
+    transform: rotate(360deg) translatey(-30px);
+    color: darkred; 
+    padding-bottom: 10px;
+
+}
+
+.profile .bottom .left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile .bottom .left .card{ 
+    background: transparent;
+    color: aliceblue;
+}
+.profile .bottom .left .card h5{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.profile .bottom .left .card h6{
+    font-size: 18px;
+
+}
+.profile .bottom .left .card img{ 
+  height: 50%;
+    border: 2px solid black;
+border-radius:20px ;
+}
+
+footer{
+height: auto;
+  background-color: #26272b;
+  padding: 45px 0px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+ 
+}
+
+footer .top{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer  .card{
+  background: transparent ;
+  color: white;
+}
+footer   .card .card-body .card-title{
+ 
+  letter-spacing: 5px;
+}
+footer .card .card-body .card-text{
+  color: #737373;
+  
+}
+footer .card .list-group .list-group-item{
+  padding: 5px 0px !important;
+background: transparent !important;
+}
+
+footer .card li a{
+  color: #737373;
+  text-decoration: none;
+}
+footer .card li a:hover{
+  color: rgb(44, 141, 231);
+}
+
+footer .bottom{
+  margin: 0px 30px;
+  padding: 10px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #737373;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer .bottom .social-links {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin: auto;
+}
+footer .bottom .social-links a{
+  display: flex;
+  flex-wrap: wrap;
+  color: #737373;
+  text-decoration: none;
+  width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: rgb(17, 17, 17);
+    position: relative;
+}
+footer .bottom .social-links a:hover{
+  background-color: #ddd;
+}
+
+footer .bottom .social-links i{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color:#737373;
+  font-size: 30px;
+justify-content: center;
+}
+
+
+.gallary{
+  padding: 100px 0px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-image: url(../images/bg.jpeg);
+  color: white;
+}
+.gallary .top {
+  margin: auto;
+  width: 30%;
+  border-bottom: 3px solid white ;
+}
+.gallary h1{
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-left: 2px solid white ;
+  border-right: 2px solid white;
+  border-radius: 20px;
+}
+.gallary .allbottom{
+  width: 100%;
+}
+.gallary .allbottom .allpic{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.gallary .allbottom .allpic .card{
+  margin: 15px 0px;
+}
+.gallary .allbottom {
+  margin-top: 20px;
+  width: 100%;
+}
+.gallary .allbottom .mytab{
+  margin: 10px auto !important;
+  width: 40% !important;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+background-color: white ;
+align-items: center;
+
+}
+.gallary .allbottom .mytab .item{
+  padding: 10x 30px;
+}
+.gallary .allbottom .mytab .item:hover{
+color: aliceblue;
+
+background-color: #222;
+}
+.gallary .allbottom .mypic{
+  background: transparent;
+  border: none;
+}
